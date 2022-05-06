@@ -11,6 +11,14 @@ body {
 
 h1 {
     font-size: 1.3em;
+    margin-left: 5px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* Sidenav menu */
@@ -87,19 +95,34 @@ main {
     height: 90vh;
 }
 
+.side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 55vh;
+}
+
 h2 {
     font-size: 1.2em;
     color: #FEAF4C;
 }
 
-img {
+.home .profile-pic-mobile {
     display: block;
-    width: 60vw;
-    height: auto;
+    width: 175px;
+    height: 175px;
     margin: 10px auto;
+    background-image: url('img/profil_velo_mobile.png');
+    background-position: center;
+    background-size: cover;
     background-color: #5c627c;
     border: 2px solid #FEAF4C;
     border-radius: 50%;
+}
+
+.home p {
+    width: 80vw;
 }
 
 .btn {
@@ -107,4 +130,134 @@ img {
     color: #43485B;
     font-weight: bold;
     width: 60vw;
+    max-width: 250px;
+}
+
+/* !! Nav version tablette et desktop, cachée en version mobile !! */
+
+.highres-nav {
+    display: none;
+}
+
+.profile-pic {
+    display: none;
+}
+
+@media screen and (min-width: 672px) {
+
+    /* BODY */
+
+    body {
+        margin: 10px 20px ;
+    }
+
+    /* HEADER */
+
+    /* !! Nav version mobile, cachée en version tablette et desktop !! */
+    #openBtn {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+
+    .highres-nav {
+        display: block;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav li {
+        font-size: 0.8em;
+        list-style-type: none;
+    }
+
+    nav a {
+        color: #FBEFD2;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 2px 4px;
+        box-shadow: 0px 0px 2px black;
+    }
+
+    h1 {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (min-width: 990px) {
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    .home .profile-pic-mobile {
+        display: none;
+    }
+
+    .home {
+      display: grid; 
+      grid-template-columns: 50% 50%; 
+      grid-template-rows: 1fr; 
+      gap: 0px 0px; 
+      grid-template-areas: 
+        "profile-pic side"; 
+    }
+    
+    .profile-pic {
+        grid-area: profile-pic;
+        display: block;
+    }
+
+    .profile-pic img {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 80vh;
+        max-width: 60vw;
+    }
+    
+    .side {
+        grid-area: side;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        height: 90vh;
+        padding-top: 20px;
+    }
+
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .catchphrase {
+        max-width: 40vw;
+        font-size: 1.5em;
+    }
+
+    .cta-btn {
+        font-size: 1.3em;
+        max-width: 300px;
+    }
+
+    .cta-btn:hover {
+        background-color: #5c627c;
+        color : #FEAF4C
+    }
+}
+
+@media screen and (min-width: 1296px) {
+    
+    body {
+        max-width: 1296px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid red;
+    }
 }
