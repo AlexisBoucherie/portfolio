@@ -185,6 +185,11 @@ h2 {
         box-shadow: 0px 0px 2px black;
     }
 
+    nav a:hover {
+        background-color: #FEAF4C;
+        color: #43485B;
+    }
+
     h1 {
         font-size: 0.9em;
     }
@@ -195,6 +200,8 @@ h2 {
     h1 {
         font-size: 1.7em;
     }
+
+    /* Homepage */
 
     .home .profile-pic-mobile {
         display: none;
@@ -258,6 +265,5 @@ h2 {
         max-width: 1296px;
         margin-left: auto;
         margin-right: auto;
-        border: 2px solid red;
     }
 }
