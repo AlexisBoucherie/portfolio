@@ -36,7 +36,7 @@ h1 {
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 0.9em;
     color: #FBEFD2;
     display: block;
     transition: 0.3s;
@@ -97,6 +97,7 @@ img {
     width: 60vw;
     height: auto;
     margin: 10px auto;
+    background-color: #5c627c;
     border: 2px solid #FEAF4C;
     border-radius: 50%;
 }
