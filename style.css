@@ -5,6 +5,7 @@ body {
     color: #FBEFD2;
     padding: 5px 10px;
     font-size: 28px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* --- HEADER --- */
@@ -99,6 +100,10 @@ p {
     font-size: 0.9em;
 }
 
+.box {
+    box-shadow: 2px 2px 6px #000000;
+}
+
 /* home */
 
 .home {
@@ -110,7 +115,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 60vh;
+    height: 50vh;
 }
 
 h2 {
@@ -135,12 +140,22 @@ h2 {
     width: 80vw;
 }
 
+.home a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
 .btn {
     background-color: #FEAF4C;
     color: #43485B;
+    padding: 5px 10px;
     font-weight: bold;
+    padding: auto;
     width: 60vw;
     max-width: 250px;
+    border-radius: 20px;
 }
 
 /* !! Nav version tablette et desktop, cachée en version mobile !! */
@@ -179,14 +194,14 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* METTRE pic1, pic2, ... */
+/* METTRE LES URL DE pic1, pic2, ... */
 
 @media screen and (min-width: 672px) {
 
     /* BODY */
 
     body {
-        margin: 10px 20px ;
+        margin: 5px 10px ;
     }
 
     /* HEADER */
@@ -275,7 +290,7 @@ h2 {
 
     .profile-pic img {
         width: auto;
-        height: 80vh;
+        height: 70vh;
         max-width: 60vw;
         border: 2px solid #FEAF4C;
         border-radius: 20px;
@@ -287,8 +302,8 @@ h2 {
         display: flex;
         flex-direction: column;
         align-content: space-around;
-        height: 90vh;
-        padding-top: 20px;
+        height: 75vh;
+        padding: 20px 0;
     }
 
     h2 {
@@ -300,12 +315,12 @@ h2 {
         font-size: 1.5em;
     }
 
-    .cta-btn {
+    .btn {
         font-size: 1.3em;
         max-width: 300px;
     }
 
-    .cta-btn:hover {
+    .btn:hover {
         background-color: #5c627c;
         color : #FEAF4C
     }
