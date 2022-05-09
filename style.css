@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    text-align: left;
+}
+
 /* --- HEADER --- */
 
 h1 {
@@ -177,16 +181,26 @@ h2 {
 }
 
 .project {
-    padding: 5px;
+    padding: 10px;
     border: 2px solid #FEAF4C;
     border-radius: 20px;
     margin: 10px auto ;
 }
 
+.project h5, .project ul {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.project ul {
+    text-indent: -3px;
+}
+
 .project-pic {
     display: block;
     width: 80vw;
-    height: 300px;
+    height: 40vh;
+    max-height: 300px;
     margin: 0 auto;
     background-image: url('img/blank_project_400x300.png');
     background-position: center;
@@ -194,7 +208,37 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* METTRE LES URL DE pic1, pic2, ... */
+h5 {
+    text-decoration: underline;
+}
+
+.pic1 {
+    background-image: url('img/cvfdpmobile.jpeg');
+}
+
+.pic2 {
+    background-image: url('img/krokettesduyoukimobile.jpeg');
+}
+
+.pic3 {
+    background-image: url('img/spvarsmobile.jpeg');
+}
+
+/* Contacts */
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contacts h3 {
+    width: 90vw;
+}
+
+.contacts a {
+    color: #FEAF4C;
+}
 
 @media screen and (min-width: 672px) {
 
@@ -257,6 +301,7 @@ h2 {
 
     .project .project-pic {
         width: 28vw;
+        max-height: 600px;
     }
 
 }
@@ -336,7 +381,6 @@ h2 {
     .project .project-pic {
         width: 22vw;
     }
-
 }
 
 @media screen and (min-width: 1296px) {
