@@ -180,6 +180,12 @@ h2 {
     justify-content: space-around;
 }
 
+.achievements .aster {
+    font-size: 0.7em;
+    text-align: center;
+    font-style: italic;
+}
+
 .project {
     padding: 10px;
     border: 2px solid #FEAF4C;
@@ -206,6 +212,10 @@ h2 {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+h4 {
+    color: #FEAF4C;
 }
 
 h5 {
@@ -239,6 +249,21 @@ h5 {
 .contacts a {
     color: #FEAF4C;
 }
+
+/* FOOTER */
+
+footer a, footer p {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+footer a {
+    display: block;
+    margin: 5px auto;
+    color: #FBEFD2;
+}
+
+
 
 @media screen and (min-width: 672px) {
 
@@ -302,6 +327,18 @@ h5 {
     .project .project-pic {
         width: 28vw;
         max-height: 600px;
+    }
+
+    .pic1 {
+        background-image: url('img/cvfdp.jpeg');
+    }
+    
+    .pic2 {
+        background-image: url('img/krokettesduyouki.jpeg');
+    }
+    
+    .pic3 {
+        background-image: url('img/spvars.jpeg');
     }
 
 }

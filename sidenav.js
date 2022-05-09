@@ -1,9 +1,11 @@
 var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
 var closeBtn = document.getElementById("closeBtn");
+var closeAct = document.getElementById("closeAction");
 
-openBtn.onclick = openNav;
-closeBtn.onclick = closeNav;
+openBtn.addEventListener('click', openNav);
+closeBtn.addEventListener('click', closeNav);
+closeAct.addEventListener('click', closeNav);
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
