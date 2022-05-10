@@ -132,7 +132,7 @@ h2 {
     width: 175px;
     height: 175px;
     margin: 10px auto;
-    background-image: url('img/profil_velo_mobile.png');
+    background-image: url('../img/profil_velo_mobile.png');
     background-position: center;
     background-size: cover;
     background-color: #5c627c;
@@ -209,7 +209,6 @@ h2 {
     height: 40vh;
     max-height: 300px;
     margin: 0 auto;
-    background-image: url('img/blank_project_400x300.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -224,15 +223,15 @@ h5 {
 }
 
 .pic1 {
-    background-image: url('img/cvfdpmobile.jpeg');
+    background-image: url('../img/cvfdpmobile.jpeg');
 }
 
 .pic2 {
-    background-image: url('img/krokettesduyoukimobile.jpeg');
+    background-image: url('../img/krokettesduyoukimobile.jpeg');
 }
 
 .pic3 {
-    background-image: url('img/spvarsmobile.jpeg');
+    background-image: url('../img/spvarsmobile.jpeg');
 }
 
 /* Contacts */
@@ -331,15 +330,15 @@ footer a {
     }
 
     .pic1 {
-        background-image: url('img/cvfdp.jpeg');
+        background-image: url('../img/cvfdp.jpeg');
     }
     
     .pic2 {
-        background-image: url('img/krokettesduyouki.jpeg');
+        background-image: url('../img/krokettesduyouki.jpeg');
     }
     
     .pic3 {
-        background-image: url('img/spvars.jpeg');
+        background-image: url('../img/spvars.jpeg');
     }
 
 }
