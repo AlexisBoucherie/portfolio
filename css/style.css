@@ -119,14 +119,12 @@ p {
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    border: 1px solid green;
 }
 
 h2 {
     font-size: 1.2em;
     color: #FEAF4C;
     margin: 10px 0 0 0;
-    border: 1px solid yellow;
 }
 
 .home .profile-pic-mobile {
@@ -140,14 +138,12 @@ h2 {
     background-color: #5c627c;
     border: 2px solid #FEAF4C;
     border-radius: 50%;
-    border: 1px solid yellow;
 }
 
 .home p {
     width: 80vw;
     text-align: center;
     font-size: 1em;
-    border: 1px red solid;
 }
 
 .home a {
