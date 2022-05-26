@@ -22,7 +22,7 @@
         <div class="project box">
             <h4>Les Krokettes du Youki</h4>
             <a href="https://leskrokettesduyouki.netlify.app/index.html"><div class="project-pic pic2"></div></a>
-            <p>Réalisé dans le cadre d'une toute première évaluation de diplôme, ce projet présente le site d'une association fictive. La consigne ici était de réaliser un site mobile first statique et qui comprenait plusieurs pages, puis de le déployer.</p>
+            <p>Réalisé dans le cadre d'une toute première évaluation de diplôme, ce projet présente le site d'une association fictive au choix. La consigne ici était de réaliser un site mobile first statique et qui comprenait plusieurs pages, puis de le déployer.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>HTML5</li>
