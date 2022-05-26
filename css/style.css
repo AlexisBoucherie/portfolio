@@ -235,6 +235,18 @@ h5 {
     background-image: url('../img/spvarsmobile.jpeg');
 }
 
+.pic4 {
+    background-image: url('../img/calculatormobile.jpeg');
+}
+
+.pic5 {
+    background-image: url('../img/dicegamemobile.jpeg');
+}
+
+.pic6 {
+    background-image: url('../img/todolistmobile.jpeg');
+}
+
 /* Contacts */
 
 .contacts {
@@ -352,6 +364,18 @@ footer a {
     
     .pic3 {
         background-image: url('../img/spvars.jpeg');
+    }
+
+    .pic4 {
+        background-image: url('../img/calculator.jpeg');
+    }
+    
+    .pic5 {
+        background-image: url('../img/dicegame.jpeg');
+    }
+    
+    .pic6 {
+        background-image: url('../img/todolist.jpeg');
     }
 
 }
