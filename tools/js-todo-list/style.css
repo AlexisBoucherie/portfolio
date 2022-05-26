@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, rgb(9, 68, 205), rgb(11, 104, 186));
+    color: gold;
+    min-height: 100vh;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+form button {
+    color: rgb(11, 104, 186);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background-color: rgb(11, 104, 186);
+    color: aliceblue;
+    border: 1px solid gold;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    color: black;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.complete-btn, .trash-btn {
+    background-color: gold;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.complete-btn {
+    background-color: rgb(73, 204, 73);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash, .fa-check {
+    pointer-events: none; /* empêche le bug des boutons trash et check */
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall {
+    transform: translateY(8rem) rotateZ(20deg);
+}
+
+.backToMain {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 20vw;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(101, 173, 172);
+    border-radius: 20px;
+}
+
+.backToMain:hover {
+    background-color: rgb(76, 137, 136);
+}
