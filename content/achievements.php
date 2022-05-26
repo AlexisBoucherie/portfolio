@@ -107,5 +107,20 @@
             </ul>
         </div>
 
+        <div class="project box">
+            <h4>CV - Feuille de Personnage</h4>
+            <a href="https://alexis-boucherie-cv.herokuapp.com/"><div class="project-pic pic1"></div></a>
+            <p>Ce projet réalisé de manière libre était un moyen pour moi d'allier mes deux passions : l'informatique et le jeu de rôle. J'ai alors entrepris de confectionner un Curriculum Vitae qui prendrait la forme d'une feuille de personnage inspirée du jeu Donjons et Dragons.</p>
+            <h5>Langages et outils utilisés :</h5>
+            <ul>
+                <li>Figma (wireframe et mockup)</li>
+                <li>HTML5</li>
+                <li>CSS3 (grid, flexbox)</li>
+                <li>Media queries</li>
+                <li>Intégration Google Fonts</li>
+                <li>Déploiement : Heroku</li>
+            </ul>
+        </div>
+
     </div>
 </div>
