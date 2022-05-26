@@ -5,7 +5,7 @@
     <div class="container">
           
         <div class="project box">
-            <h4>CV - Feuille de personnage</h4>
+            <h4>CV - Feuille de Personnage</h4>
             <a href="https://alexis-boucherie-cv.herokuapp.com/"><div class="project-pic pic1"></div></a>
             <p>Ce projet réalisé de manière libre était un moyen pour moi d'allier mes deux passions : l'informatique et le jeu de rôle. J'ai alors entrepris de confectionner un Curriculum Vitae qui prendrait la forme d'une feuille de personnage inspirée du jeu Donjons et Dragons.</p>
             <h5>Langages et outils utilisés :</h5>
@@ -51,7 +51,7 @@
         </div>
 
         <div class="project box">
-            <h4>Outil : JS simple calculator</h4>
+            <h4>JS Simple Calculator</h4>
             <a href="tools/js-vanilla-calculator/calculator.html"><div class="project-pic pic4"></div></a>
             <p>Cette calculatrice réalisée en Vanilla JS est un outil simple qui m'a permis de réaliser des opérations simples en terme de manipulation du DOM. Comme axes d'amélioration, on pourrait la rendre mieux responsive, ajouter une touche pour les calculs à virgules et créer des boucles pour rendre le code moins répétitif. Cependant, elle marche très bien en l'état.</p>
             <h5>Langages et outils utilisés :</h5>
@@ -67,7 +67,7 @@
         </div>
 
         <div class="project box">
-            <h4>Mini jeu : A Dice Game | Wizard Battle</h4>
+            <h4>JS Dice Game</h4>
             <a href="http://js-dice-game-wizard-battle.herokuapp.com/"><div class="project-pic pic5"></div></a>
             <p>Ce petit jeu pour mobile fait s'affronter deux joueurs qui incarnent des magiciens. À chacun de leur tour, les joueurs lancent les dés pour charger leur sort et le lancer sur l'adversaire. Le premier qui élimine son adversaire est le vainqueur. Comme amélioration, il serait possible d'ajouter quelques petites animations, ainsi que des sons et musiques.</p>
             <h5>Langages et outils utilisés :</h5>
