@@ -88,7 +88,7 @@
         <div class="project box">
             <h4>JS ToDo List</h4>
             <a href="tools/js-todo-list/todolist.html"><div class="project-pic pic6"></div></a>
-            <p>Cet outil est une todo list qui permet d'ajouter des items, de les marquer comme "checked" ou de les supprimer. Comme axe d'amélioration, il serait possible de pouvoir filtrer les tâches par catégorie et de lier le script à un fichier pour sauvegarder les tâches d'une fois sur l'autre.</p>
+            <p>Cet application Desktop est une todo list qui permet d'ajouter des items, de les marquer comme "checked" ou de les supprimer. Comme axe d'amélioration, il serait possible de pouvoir filtrer les tâches par catégorie et de lier le script à un fichier pour sauvegarder les tâches d'une fois sur l'autre.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>JavaScript :</li>

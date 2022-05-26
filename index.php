@@ -31,4 +31,4 @@
 
 </body>
 
-<!-- Site Web Portfolio réalisé par Alexis Buucherie (dernière MàJ le 26-05-2022)-->
+<!-- Site Web Portfolio réalisé par Alexis Boucherie (dernière MàJ le 26-05-2022)-->
