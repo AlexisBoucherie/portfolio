@@ -62,13 +62,13 @@
                     <li>addEventListener</li>
                     <li>parseInt</li>
                 </ul>
-                <li>Déploiement : Heroku</li>
+                <li>Déploiement : via mon portfolio</li>
             </ul>
         </div>
 
         <div class="project box">
             <h4>Mini jeu : A Dice Game | Wizard Battle</h4>
-            <a href="http://js-dice-game-wizard-battle.herokuapp.com/"><div class="project-pic pic5"></div></a>
+            <a href="tools/js-to-list/todolist.html"><div class="project-pic pic5"></div></a>
             <p>Ce petit jeu pour mobile fait s'affronter deux joueurs qui incarnent des magiciens. À chacun de leur tour, les joueurs lancent les dés pour charger leur sort et le lancer sur l'adversaire. Le premier qui élimine son adversaire est le vainqueur. Comme amélioration, il serait possible d'ajouter quelques petites animations, ainsi que des sons et musiques.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -81,7 +81,7 @@
                         <li>innerText/HTML</li>
                     </ul>
                 <li>Bootstrap Icons CDN</li>
-                <li>Déploiement : Heroku</li>
+                <li>Déploiement : via mon portfolio</li>
             </ul>
         </div>
 
