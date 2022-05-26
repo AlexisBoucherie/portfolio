@@ -30,7 +30,7 @@
                 <li>Media queries</li>
                 <li>Page événement</li>
                 <li>Formulaire (HTML seul)</li>
-                <li>Déploiement : Heroku</li>
+                <li>Déploiement : Netlify</li>
             </ul>
         </div>
           
@@ -50,7 +50,7 @@
             </ul>
         </div>
 
-        <div class="project box">
+        <!-- <div class="project box">
             <h4>JS Simple Calculator</h4>
             <a href="tools/js-vanilla-calculator/calculator.html"><div class="project-pic pic4"></div></a>
             <p>Cette calculatrice réalisée en Vanilla JS est un outil simple qui m'a permis de réaliser des opérations simples en terme de manipulation du DOM. Comme axes d'amélioration, on pourrait la rendre mieux responsive, ajouter une touche pour les calculs à virgules et créer des boucles pour rendre le code moins répétitif. Cependant, elle marche très bien en l'état.</p>
@@ -64,7 +64,7 @@
                 </ul>
                 <li>Déploiement : via mon portfolio</li>
             </ul>
-        </div>
+        </div> -->
 
         <div class="project box">
             <h4>JS Dice Game</h4>
