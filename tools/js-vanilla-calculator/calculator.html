@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <h1>A Simple Javascript Calculator</h1>
+    <div class="calculator">
+        <!-- l'écran d'affichage de la calculatrice -->
+        <div class="screen" id="screen"></div>
+        
+        <!-- deux sections non visibles à l'écran pour stocket des valeurs de variables -->
+        <div class="hidden" id="memory"></div>
+        <div class="hidden" id="opType"></div>
+        
+        <!-- les touches de la calculatrices -->
+        <div class="keys">
+            <div class="numbers">
+                <button id="seven">7</button>
+                <button id="eight">8</button>
+                <button id="nine">9</button>
+                <button id="four">4</button>
+                <button id="five">5</button>
+                <button id="six">6</button>
+                <button id="one">1</button>
+                <button id="two">2</button>
+                <button id="three">3</button>
+                <button id="zero">0</button>
+                <button id="clear">CC</button>
+            </div>
+            <div class="signs">
+                <button id="plus">+</button>
+                <button id="minus">-</button>
+                <button id="times">x</button>
+                <button id="dividedby">/</button>
+                <button id="equal" class="equal">=</button>
+            </div>
+        </div>
+    </div>
+
+    <a class="backToMain" href="../../index.php#achievements">Revenir vers mes réalisations</a>
+
+    <script src="script.js"></script>
+    
+    <!-- A very simple calculator made by Alexis Boucherie - 2022 -->
+</body>
+</html>

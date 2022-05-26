@@ -1,0 +1,103 @@
+body {
+    font-family: 'Iceland', cursive;
+    font-size: 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(57, 51, 164) 0%, rgb(101, 101, 173) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.calculator {
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.screen {
+    width: 450px;
+    height: 20px;
+    padding: 10px;
+    margin: 0 auto 5px auto;
+    text-align: right;
+    letter-spacing: 2px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.numbers button {
+    margin: 5px;
+    width: 110px;
+    height: 50px;
+}
+
+.signs button {
+    margin: 5px;
+    width: 90px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1em;
+    color: aliceblue;
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+    background-color: rgb(101, 173, 172);
+}
+
+button:hover {
+    background-color: rgb(76, 137, 136);
+}
+
+.keys {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers {
+    width: 400px;
+}
+
+.signs {
+    width: 100px;
+}
+
+.numbers, .signs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.equal {
+    background-color: rgb(203, 123, 123);
+}
+
+.equal:hover {
+    background-color: rgb(165, 97, 97);
+}
+
+.backToMain {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    width: 20vw;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(101, 173, 172);
+    border-radius: 20px;
+}
+
+.backToMain:hover {
+    background-color: rgb(76, 137, 136);
+}
