@@ -247,6 +247,10 @@ h5 {
     width: 90vw;
 }
 
+.contacts p {
+    text-align: left;
+}
+
 .contacts a {
     color: #FEAF4C;
 }
