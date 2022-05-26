@@ -68,7 +68,7 @@
 
         <div class="project box">
             <h4>Mini jeu : A Dice Game | Wizard Battle</h4>
-            <a href="tools/js-todo-list/todolist.html"><div class="project-pic pic5"></div></a>
+            <a href="http://js-dice-game-wizard-battle.herokuapp.com/"><div class="project-pic pic5"></div></a>
             <p>Ce petit jeu pour mobile fait s'affronter deux joueurs qui incarnent des magiciens. À chacun de leur tour, les joueurs lancent les dés pour charger leur sort et le lancer sur l'adversaire. Le premier qui élimine son adversaire est le vainqueur. Comme amélioration, il serait possible d'ajouter quelques petites animations, ainsi que des sons et musiques.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -86,21 +86,24 @@
         </div>
 
         <div class="project box">
-            <h4>Mini jeu : A Dice Game | Wizard Battle</h4>
+            <h4>JS ToDo List</h4>
             <a href="tools/js-todo-list/todolist.html"><div class="project-pic pic6"></div></a>
             <p>Cet outil est une todo list qui permet d'ajouter des items, de les marquer comme "checked" ou de les supprimer. Comme axe d'amélioration, il serait possible de pouvoir filtrer les tâches par catégorie et de lier le script à un fichier pour sauvegarder les tâches d'une fois sur l'autre.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>JavaScript :</li>
                 <ul>
-                    <li>getRandomInt</li>
-                    <li>getElementById</li>
+                    <li>querySelector</li>
+                    <li>preventDefault</li>
                     <li>add/removeEventListener</li>
-                    <li>switch conditions</li>
+                    <li>createElement</li>
                     <li>innerText/HTML</li>
+                    <li>classList.add/toggle</li>
+                    <li>appendChild</li>
                 </ul>
+                <li>CSS3 (transition, transform)</li>
                 <li>Bootstrap Icons CDN</li>
-                <li>Déploiement : Heroku</li>
+                <li>Déploiement : via mon portfolio</li>
             </ul>
         </div>
 
