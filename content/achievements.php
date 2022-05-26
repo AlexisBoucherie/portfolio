@@ -22,7 +22,7 @@
         <div class="project box">
             <h4>Les Krokettes du Youki</h4>
             <a href="https://leskrokettesduyouki.netlify.app/index.html"><div class="project-pic pic2"></div></a>
-            <p>Ce projet réalisé dans le cadre d'une toute première évaluation de diplôme présente le site d'une association fictive. La consigne ici était de réaliser un site mobile first statique et qui comprenait plusieurs pages, puis de le déployer.</p>
+            <p>Réalisé dans le cadre d'une toute première évaluation de diplôme, ce projet présente le site d'une association fictive. La consigne ici était de réaliser un site mobile first statique et qui comprenait plusieurs pages, puis de le déployer.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>HTML5</li>
@@ -52,7 +52,7 @@
 
         <div class="project box">
             <h4>Outil : JS simple calculator</h4>
-            <a href="https://service-personne-16.herokuapp.com/"><div class="project-pic pic3"></div></a>
+            <a href="tools/js-vanilla-calculator/calculator.html"><div class="project-pic pic4"></div></a>
             <p>Cette calculatrice réalisée en Vanilla JS est un outil simple qui m'a permis de réaliser des opérations simples en terme de manipulation du DOM. Comme axes d'amélioration, on pourrait la rendre mieux responsive, ajouter une touche pour les calculs à virgules et créer des boucles pour rendre le code moins répétitif. Cependant, elle marche très bien en l'état.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -67,15 +67,18 @@
         </div>
 
         <div class="project box">
-            <h4>Mini jeu : Devine le nombre !</h4>
-            <a href="https://service-personne-16.herokuapp.com/"><div class="project-pic pic3"></div></a>
-            <p>Avec ce petit jeu, il s'agit de trouver un nombre aléatoire, généré par l'ordinateur, entre 1 et 100 en moins de dix essais.</p>
+            <h4>Mini jeu : A Dice Game | Wizard Battle</h4>
+            <a href="http://js-dice-game-wizard-battle.herokuapp.com/"><div class="project-pic pic5"></div></a>
+            <p>Ce petit jeu pour mobile fait s'affronter deux joueurs qui incarnent des magiciens. À chacun de leur tour, les joueurs lancent les dés pour charger leur sort et le lancer sur l'adversaire. Le premier qui élimine son adversaire est le vainqueur.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>JavaScript :</li>
                 <ul>
-                    <li>selectElementById</li>
-                    <li>addEventListener</li>
+                    <li>getRandomInt</li>
+                    <li>getElementById</li>
+                    <li>add/removeEventListener</li>
+                    <li>switch conditions</li>
+                    <li>innerText/HTML</li>
                 </ul>
                 <li>Déploiement : Heroku</li>
             </ul>
