@@ -5,6 +5,7 @@ const todoList = document.querySelector(".todo-list");
 const filterOption = document.querySelector(".filter-todo");
 
 //LISTENERS
+document.addEventListener('DOMContentLoaded', getTodos);
 todoButton.addEventListener("click", addTodo);
 todoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("click", filterTodo);
@@ -26,6 +27,9 @@ function addTodo(event) {
     newTodo.classList.add("todo-item");
     //ajout de la "li" à la div.todo
     todoDiv.appendChild(newTodo);
+
+    //ajout de la valeur de l'input todo au localStorage
+    saveLocalTodos(todoInput.value);
 
     //ajout d'un bouton "checked"
     const completedButton = document.createElement("button");
@@ -66,6 +70,8 @@ function deleteCheck(e) {
         todo.addEventListener("transitionend", () => {
             todo.remove();
         })
+        //on enlève la todo du localStorage
+        removeLocalTodos();
     }
 
     //checker la todo
@@ -107,4 +113,75 @@ function filterTodo(e) {
             }
         }
     })
+}
+
+function saveLocalTodos(todo) {
+    // on vérifie si on a déjà des todos enregistrées ou non
+    let todos;
+    if (localStorage.getItem('todos') === null) {
+        // si on n'a rien, on crée un array vide
+        todos = [];
+        localStorage.setItem("todos", JSON.stringify(todos));
+    } else {
+        // si on a qlq chose, on récupère le contenu de l'array
+        todos = JSON.parse(localStorage.getItem('todos'));
+    }
+    // on ajoute la todo passée en paramètre à l'array todos
+    localStorage.todos.push(todo);
+}
+
+function getTodos() {
+    let todos;
+    if (localStorage.getItem('todos') === null) {
+        todos = [];
+    } else {
+        todos = JSON.parse(localStorage.getItem('todos'));
+    }
+    todos.forEach(function (todo) {
+        //creation d'une div
+        const todoDiv = document.createElement("div");
+        //on y ajoute une classe "todo"
+        todoDiv.classList.add("todo");
+
+        //création de la "li"
+        const newTodo = document.createElement("li");
+        //on récupère la todo passée en paramètres pour l'afficher dans le "newTodo"
+        newTodo.innerText = todo;
+        newTodo.classList.add("todo-item");
+        //ajout de la "li" à la div.todo
+        todoDiv.appendChild(newTodo);
+
+        //ajout d'un bouton "checked"
+        const completedButton = document.createElement("button");
+        //ajout de l'icône voulue au bouton
+        completedButton.innerHTML = '<i class="fas fa-check"></i>';
+        //ajout d'une class supp.
+        completedButton.classList.add("complete-btn");
+        //ajout du btn à la div.todo
+        todoDiv.appendChild(completedButton);
+
+        //ajout d'un bouton "trash" (idem "checked")
+        const trashButton = document.createElement("button");
+        trashButton.innerHTML = '<i class="fas fa-trash"></i>';
+        trashButton.classList.add("trash-btn");
+        todoDiv.appendChild(trashButton);
+
+        //ajout de la "newTodo" à la "todoList"
+        todoList.appendChild(todoDiv);
+    });
+}
+
+function removeLocalTodos() {
+    let todos;
+    if (localStorage.getItem('todos') === null) {
+        todos = [];
+    } else {
+        todos = JSON.parse(localStorage.getItem('todos'));
+    }
+    //on cherche à obtenir l'index de la todo sur laquelle on clique
+    const todoIndex = todo.children[0].innerText;
+    //on demande à enlever du storage 1 item à partir de l'index communiqué
+    todos.splice(todos.indexOf(todoIndex), 1);
+    //on réinitialise le localStorage pour afficher la liste à jour
+    localStorage.setItem("todos", JSON.stringify(todos));
 }
