@@ -53,7 +53,7 @@ function deleteCheck(e) {
     //l'objet (item) est la cible de l'événement (qui est "click")
     //en l'occurence, il s'agit du bouton sur lequel on clique (check ou delete)
     const item = e.target;
-    
+
     //effacer la todo
 
     //si la première classe (index 0) de l'item est "trash-btn"
@@ -80,9 +80,9 @@ function filterTodo(e) {
     /* on cible les enfants de la todoList, donc les todos */
     const todos = todoList.childNodes;
     /* on boucle sur les todos */
-    todos.forEach(function (todo) { 
-        const mStyle = todo.style;  
-        if(mStyle != undefined && mStyle != null){
+    todos.forEach(function (todo) {
+        const mStyle = todo.style;
+        if (mStyle != undefined && mStyle != null) {
             switch (e.target.value) {
                 case "all":
                     mStyle.display = "flex";
@@ -97,10 +97,10 @@ function filterTodo(e) {
                     break;
                 /* si la classe de la todo n'est pas "completed" */
                 case "uncompleted":
-                    if (todo.classList.contains('completed')){
+                    if (todo.classList.contains('completed')) {
                         mStyle.display = 'none';
                     }
-                    else{
+                    else {
                         mStyle.display = "flex";
                     }
                     break;
