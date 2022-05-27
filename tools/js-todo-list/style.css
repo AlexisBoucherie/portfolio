@@ -36,6 +36,8 @@ form button:hover {
     border: 1px solid gold;
 }
 
+/* LISTE DES TODOS */
+
 .todo-container {
     display: flex;
     justify-content: center;
@@ -80,7 +82,8 @@ form button:hover {
 }
 
 .fa-trash, .fa-check {
-    pointer-events: none; /* empêche le bug des boutons trash et check */
+    pointer-events: none; 
+    /* empêche le bug des boutons trash et check */
 }
 
 .completed {
@@ -91,6 +94,8 @@ form button:hover {
 .fall {
     transform: translateY(8rem) rotateZ(20deg);
 }
+
+/* BOUTON DE RETOUR */
 
 .backToMain {
     display: block;
@@ -105,4 +110,45 @@ form button:hover {
 
 .backToMain:hover {
     background-color: rgb(76, 137, 136);
+}
+
+/* FILTRES */
+
+/* on retire le style par défaut du select */
+select {
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+
+/* on applique les styles voulus */
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select {
+    color: rgb(9, 68, 205);
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.select::after {
+    content: "\25BC";
+    background: rgb(9, 68, 205);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.select:hover::after {
+    background-color: aliceblue;
+    color: rgb(9, 68, 205);
 }

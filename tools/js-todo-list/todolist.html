@@ -13,8 +13,17 @@
     <form>
         <input type="text" class="todo-input">
         <button class="todo-button" type="submit"><i class="fas fa-plus-square"></i></button>
+        
+        <div class="select">
+            <select name="todos" class="filter-todo">
+                <option value="all">Tout</option>
+                <option value="completed">Terminé</option>
+                <option value="uncompleted">À faire</option>
+            </select>
+        </div>
     </form>
-    
+
+
     <div class="todo-container">
         <ul class="todo-list">
             <!-- On ajoute ici les todoItems que l'on crée -->
