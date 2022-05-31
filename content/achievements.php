@@ -1,12 +1,14 @@
 <div class="achievements" id="achievements">
     <h3>Mes réalisations</h3>
     <p class="aster">* cliquez sur la photo d'un projet pour y accéder</p>
-    
+
     <div class="container">
-          
+
         <div class="project box">
             <h4>CV - Feuille de Personnage</h4>
-            <a href="https://alexis-boucherie-cv.herokuapp.com/"><div class="project-pic pic1"></div></a>
+            <a href="https://alexis-boucherie-cv.herokuapp.com/">
+                <div class="project-pic pic1"></div>
+            </a>
             <p>Ce projet réalisé de manière libre était un moyen pour moi d'allier mes deux passions : l'informatique et le jeu de rôle. J'ai alors entrepris de confectionner un Curriculum Vitae qui prendrait la forme d'une feuille de personnage inspirée du jeu Donjons et Dragons.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -18,10 +20,12 @@
                 <li>Déploiement : Heroku</li>
             </ul>
         </div>
-            
+
         <div class="project box">
             <h4>Les Krokettes du Youki</h4>
-            <a href="https://leskrokettesduyouki.netlify.app/index.html"><div class="project-pic pic2"></div></a>
+            <a href="https://leskrokettesduyouki.netlify.app/index.html">
+                <div class="project-pic pic2"></div>
+            </a>
             <p>Réalisé dans le cadre d'une toute première évaluation de diplôme, ce projet présente le site d'une association fictive au choix. La consigne ici était de réaliser un site mobile first statique et qui comprenait plusieurs pages, puis de le déployer.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -33,10 +37,12 @@
                 <li>Déploiement : Netlify</li>
             </ul>
         </div>
-          
+
         <div class="project box">
             <h4>Service à la Personne, Vars</h4>
-            <a href="https://service-personne-16.herokuapp.com/"><div class="project-pic pic3"></div></a>
+            <a href="https://service-personne-16.herokuapp.com/">
+                <div class="project-pic pic3"></div>
+            </a>
             <p>Ce site responsif a été réalisé en concertation avec un particulier en autoentreprise. Il s'agit d'un site vitrine qui permet de faire la promotion des services réalisés par Service Personne Vars et qui permet aux client de contacter l'entreprise.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
@@ -68,18 +74,20 @@
 
         <div class="project box">
             <h4>JS Dice Game</h4>
-            <a href="http://js-dice-game-wizard-battle.herokuapp.com/"><div class="project-pic pic5"></div></a>
+            <a href="http://js-dice-game-wizard-battle.herokuapp.com/">
+                <div class="project-pic pic5"></div>
+            </a>
             <p>Ce petit jeu pour mobile fait s'affronter deux joueurs qui incarnent des magiciens. À chacun de leur tour, les joueurs lancent les dés pour charger leur sort et le lancer sur l'adversaire. Le premier qui élimine son adversaire est le vainqueur. Comme amélioration, il serait possible d'ajouter quelques petites animations, ainsi que des sons et musiques.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>JavaScript :</li>
-                    <ul>
-                        <li>getRandomInt</li>
-                        <li>getElementById</li>
-                        <li>add/removeEventListener</li>
-                        <li>switch conditions</li>
-                        <li>innerText/HTML</li>
-                    </ul>
+                <ul>
+                    <li>getRandomInt</li>
+                    <li>getElementById</li>
+                    <li>add/removeEventListener</li>
+                    <li>switch conditions</li>
+                    <li>innerText/HTML</li>
+                </ul>
                 <li>Bootstrap Icons CDN</li>
                 <li>Déploiement : via mon portfolio</li>
             </ul>
@@ -87,8 +95,10 @@
 
         <div class="project box">
             <h4>JS ToDo List</h4>
-            <a href="tools/js-todo-list/todolist.html"><div class="project-pic pic6"></div></a>
-            <p>Cet application Desktop est une todo list qui permet d'ajouter des items, de les marquer comme "checked" ou de les supprimer. Comme axe d'amélioration, il serait possible de pouvoir filtrer les tâches par catégorie et de lier le script à un fichier pour sauvegarder les tâches d'une fois sur l'autre.</p>
+            <a href="tools/js-todo-list/todolist.html">
+                <div class="project-pic pic6"></div>
+            </a>
+            <p>Cette application Desktop est une todo list qui permet d'ajouter des items, de les marquer comme "checked" ou de les supprimer. Comme axe d'amélioration, il serait possible de pouvoir filtrer les tâches par catégorie et de lier le script à un fichier pour sauvegarder les tâches d'une fois sur l'autre.</p>
             <h5>Langages et outils utilisés :</h5>
             <ul>
                 <li>JavaScript :</li>
