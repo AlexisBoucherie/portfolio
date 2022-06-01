@@ -14,33 +14,32 @@
     <h1>A Simple Javascript Calculator</h1>
     <div class="calculator">
         <!-- l'écran d'affichage de la calculatrice -->
+        <div class="screen" id="memory"></div>
         <div class="screen" id="screen"></div>
-        
-        <!-- deux sections non visibles à l'écran pour stocket des valeurs de variables -->
-        <div class="hidden" id="memory"></div>
-        <div class="hidden" id="opType"></div>
+        <div class="screen" id="operation-type"></div>
         
         <!-- les touches de la calculatrices -->
         <div class="keys">
             <div class="numbers">
-                <button id="seven">7</button>
-                <button id="eight">8</button>
-                <button id="nine">9</button>
-                <button id="four">4</button>
-                <button id="five">5</button>
-                <button id="six">6</button>
-                <button id="one">1</button>
-                <button id="two">2</button>
-                <button id="three">3</button>
-                <button id="zero">0</button>
-                <button id="clear">CC</button>
+                <button class="number-btn">7</button>
+                <button class="number-btn">8</button>
+                <button class="number-btn">9</button>
+                <button class="number-btn">4</button>
+                <button class="number-btn">5</button>
+                <button class="number-btn">6</button>
+                <button class="number-btn">1</button>
+                <button class="number-btn">2</button>
+                <button class="number-btn">3</button>
+                <button class="number-btn">0</button>
+                <button class="number-btn">.</button>
+                <button id="all-clear">AC</button>
             </div>
             <div class="signs">
-                <button id="plus">+</button>
-                <button id="minus">-</button>
-                <button id="times">x</button>
-                <button id="dividedby">/</button>
-                <button id="equal" class="equal">=</button>
+                <button class="sign-btn">+</button>
+                <button class="sign-btn">-</button>
+                <button class="sign-btn">x</button>
+                <button class="sign-btn">/</button>
+                <button id="equal" class="equal-btn">=</button>
             </div>
         </div>
     </div>
