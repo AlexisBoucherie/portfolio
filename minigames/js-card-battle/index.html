@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Card Battle</title>
+</head>
+
+<body>
+    <header>
+        <h1>JS Card Battle</h1>
+    </header>
+    <main>
+        <div class="player pl2">
+            <h2>Player 2 : CPU</h2>
+            <!-- points du CPU -->
+            <p class="score">Score: <span id="pl2-score">0</span></p>
+            <!-- main du CPU (face cachée !!) -->
+            <div class="hand">
+                <button class="card" id="card-n1"></button>
+                <button class="card" id="card-n2"></button>
+                <button class="card" id="card-n3"></button>
+                <button class="card" id="card-n4"></button>
+                <button class="card" id="card-n5"></button>
+            </div>
+        </div>
+        <div class="battleground">
+            <!-- deck de pioche -->
+            <div class="deck">
+                <button id="draw-btn">Draw a card</button>
+                <div class="deck" id="deck"></div>
+                <p>Cartes restantes : <span id="cards-left"></span></p>
+            </div>
+            <!-- à qui le tour + vissuel cartes jouées -->
+            <div class="board">
+                <p><span id="turn"></span>, it's your turn!</p>
+                <div class="card" id="played-card-1"></div>
+                <div class="card" id="played-card-2"></div>
+            </div>
+        </div>
+        <div class="player pl1">
+            <!-- points du joueur -->
+            <h2>Player 1 : Human</h2>
+            <!-- main du joueur (face visible) -->
+            <p class="score">Score: <span id="pl1-score">0</span></p>
+            <div class="hand">
+                <button class="card" id="card-n6"></button>
+                <button class="card" id="card-n7"></button>
+                <button class="card" id="card-n8"></button>
+                <button class="card" id="card-n9"></button>
+                <button class="card" id="card-n10"></button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
